@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 50px auto;
+}
+header {
+  position: relative;
+}
+
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+header ul.nav li {
+  display: inline-block;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+  text-decoration: none;
+}
+
+header ul.nav a:hover {
+  opacity: 0.5;
+}
